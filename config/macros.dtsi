@@ -1,3 +1,21 @@
+macro_newline_up: macro_newline_up{
+compatible = "zmk,behavior-macro";
+label = "macro_newline_up";
+#binding-cells = <0>;
+bindings = <&kp LG(LEFT_ARROW)>, <&kp LS(ENTER)>, <&kp UP_ARROW>;
+};
+macro_newline: macro_newline{
+compatible = "zmk,behavior-macro";
+label = "macro_newline";
+#binding-cells = <0>;
+bindings = <&kp LG(RIGHT_ARROW)>, <&kp LS(ENTER)>;
+};
+macro_close_tab: macro_close_tab{
+compatible = "zmk,behavior-macro";
+label = "macro_close_tab";
+#binding-cells = <0>;
+bindings = <&kp LEFT_COMMAND>, <&kp W>;
+};
 macro_right_tab: macro_right_tab{
 compatible = "zmk,behavior-macro";
 label = "macro_right_tab";
