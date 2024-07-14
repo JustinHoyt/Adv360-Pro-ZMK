@@ -1,3 +1,15 @@
+macro_newline_down: macro_newline_down{
+compatible = "zmk,behavior-macro";
+label = "macro_newline_down";
+#binding-cells = <0>;
+bindings = <&kp LG(RIGHT_ARROW)>, <&kp LS(ENTER)>;
+};
+macro_newline_up: macro_newline_up{
+compatible = "zmk,behavior-macro";
+label = "macro_newline_up";
+#binding-cells = <0>;
+bindings = <&kp LG(LEFT_ARROW)>, <&kp LS(ENTER)>, <&kp UP_ARROW>;
+};
 macro_quotes: macro_quotes{
 compatible = "zmk,behavior-macro";
 label = "macro_quotes";
