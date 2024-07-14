@@ -83,8 +83,8 @@
  &trans               &trans               &trans  &trans              &trans              &trans            &trans                                                  &trans          &trans             &trans              &trans               &trans  &trans  &trans
  &trans               &trans  &kp LG(RIGHT_ARROW)  &trans              &trans              &trans            &trans                                                  &trans       &kp LG(C)  &macro_newline_up  &kp LG(LEFT_ARROW)  &macro_newline_down  &trans  &trans
  &trans  &kp LG(RIGHT_ARROW)               &trans  &trans              &trans              &trans            &trans  &trans  &trans                  &trans  &trans  &trans  &kp LEFT_ARROW     &kp DOWN_ARROW        &kp UP_ARROW      &kp RIGHT_ARROW  &trans  &trans
- &trans               &trans           &kp DELETE  &trans  &kp LA(LEFT_SHIFT)  &kp LA(LEFT_ARROW)                            &trans                  &trans                          &trans             &trans              &trans               &trans  &trans  &trans
- &trans               &trans               &trans  &trans              &trans                                &trans  &trans  &trans                  &trans  &trans  &trans                             &trans              &trans               &trans  &trans  &trans
+ &trans               &trans           &kp DELETE  &trans  &kp LA(LEFT_SHIFT)  &kp LA(LEFT_ARROW)                            &trans                  &trans                          &trans       &kp C_BRI_DN        &kp C_BRI_UP               &trans  &trans  &trans
+ &trans               &trans               &trans  &trans              &trans                                &trans  &trans  &trans                  &trans  &trans  &trans                       &kp C_VOL_DN        &kp C_VOL_UP               &trans  &trans  &trans
             >;
         };
 
